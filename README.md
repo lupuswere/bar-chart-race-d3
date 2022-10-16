@@ -8,3 +8,7 @@ This repo does following:
 * Removed dependencies on observable notebook libraries and replaced with standard libraries.
 * Fixed some bugs in code that doesn't work in normal browser environment.
 * Adjusted broken style after porting the code.
+
+## Usage
+
+It's all vanilla JavaScript. Just download the repo and load `index.html` in your browser.
