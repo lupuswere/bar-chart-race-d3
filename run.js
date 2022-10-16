@@ -7,7 +7,7 @@ async function process(data) {
         let margin = ({top: 16, right: 6, bottom: 6, left: 0});
         let n = 12;
         let height = margin.top + barSize * n + margin.bottom;
-        let width = 1500;
+        let width = 1200;
         const svg = d3.select('#canvas').append("svg")
             .attr("viewBox", [0, 0, width, height]);
         //////
