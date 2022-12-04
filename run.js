@@ -77,8 +77,8 @@ async function process(data) {
 
         function labels(svg) {
             let label = svg.append("g")
-                .style("font", "bold 12px var(--sans-serif)")
-                .style("font-variant-numeric", "tabular-nums")
+                .style("font-family", "Optima, sans-serif")
+                .style("font-size", "15px")
                 .attr("text-anchor", "end")
                 .selectAll("text");
 
@@ -134,8 +134,8 @@ async function process(data) {
 
         function ticker(svg) {
             const now = svg.append("text")
-                .style("font", `bold ${barSize}px var(--sans-serif)`)
-                .style("font-variant-numeric", "tabular-nums")
+                .style("font-size", "50px")
+                .style("font-family", "Arial")
                 .attr("text-anchor", "end")
                 .attr("x", width - 6)
                 .attr("y", margin.top + barSize * (n - 0.45))
